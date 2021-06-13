@@ -1141,4 +1141,17 @@ Wire Wire Line
 Connection ~ 10750 1700
 Wire Wire Line
 	10750 1700 10750 3850
+$Comp
+L power:+VDC #PWR?
+U 1 1 60C9456F
+P 1400 800
+F 0 "#PWR?" H 1400 700 50  0001 C CNN
+F 1 "+VDC" H 1400 1075 50  0000 C CNN
+F 2 "" H 1400 800 50  0001 C CNN
+F 3 "" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 800  1400 950 
 $EndSCHEMATC
